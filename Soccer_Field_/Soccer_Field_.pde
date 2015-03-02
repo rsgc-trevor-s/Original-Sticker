@@ -1,9 +1,13 @@
-//canvas size
-size(500, 600);
+//Sean Trevor
+//Feb 3rd 2015
+
+//canvas Size 
+size(500,600);
 
 
-//head
+// Purple Head
 beginShape();
+fill(131, 14, 233);
 vertex(162, 150);
 vertex(297, 120);
 vertex(378, 165);
@@ -23,8 +27,9 @@ vertex(150, 225);
 vertex(162, 150);
 endShape();
 
-//mouth 
+//black mouth 
 beginShape();
+fill(0, 0, 0);
 vertex(202.5, 390);
 vertex(210, 360);
 vertex(211, 340);
@@ -42,7 +47,9 @@ vertex(189, 420);
 endShape();
 
 //Ears
+//Left Ear
 beginShape();
+fill(148, 255, 24);
 vertex(189, 144);
 vertex(175.5, 115);
 vertex(175.5, 115);
@@ -54,8 +61,9 @@ vertex(190, 115);
 vertex(190, 115);
 vertex(197, 143);
 endShape();
-beginShape();
 
+//Right Ear
+beginShape();
 vertex(351, 150);
 vertex(378, 120);
 vertex(378, 120);
@@ -70,13 +78,21 @@ endShape();
 
 //eyes
 beginShape();
+fill(0, 0, 0);
 ellipse(297, 180, 80, 40);
 ellipse(170, 187.5, 80, 40);
 endShape();
 
-
-//body
+//green dots
 beginShape();
+fill(148, 255, 24);
+ellipse(310, 190, 20, 15);
+ellipse(150, 180, 20, 15);
+endShape();
+
+//Green Body
+beginShape();
+fill(148, 255, 24);
 vertex(189, 420); 
 vertex(229.5, 450); 
 vertex(229.5, 450);
@@ -89,11 +105,13 @@ vertex(189, 420);
 endShape();
 
 //feet
+fill(131, 14, 233);
 triangle(200, 490, 150, 530, 240, 530);
 triangle(340, 490, 290, 530, 380, 530);
 
-//red thing
+//red tounge
 beginShape();
+fill(240, 24, 31);
 vertex(283.5, 420);
 vertex(270, 350);
 vertex(230, 370);
@@ -106,3 +124,28 @@ vertex(270, 325);
 vertex(290, 370);
 vertex(283.5, 420);
 endShape();
+
+//Left arms 
+
+beginShape();
+curveVertex(228, 453);
+curveVertex(228, 453);
+curveVertex(170, 433);
+curveVertex(162, 455);
+curveVertex(212, 474);
+curveVertex(212, 474);
+ endShape();
+ 
+ //Right Arm
+ beginShape();
+ curveVertex(330, 475);
+ curveVertex(330, 475);
+ curveVertex(381, 442);
+ curveVertex(362, 423);
+ curveVertex(320, 444);
+ curveVertex(320, 444);
+ endShape();
+
+ 
+ 
+ 
